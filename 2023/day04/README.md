@@ -15,10 +15,20 @@ A shell script is a computer program designed to be run by a linux shell, a comm
 **Tasks**
 
 - Explain in your own words and examples, what is Shell Scripting for DevOps.
+It is a script which is programmed to perform certain tasks/activities in a sequence. e.g shell script to check disk space usage and if result is high trigger an alert
+
 - What is `#!/bin/bash?` can we write `#!/bin/sh` as well?
+It is called a shebang. It is a convention to instruct the operating system to use bash as a command interpreter.
+Each of the systems has its own shells which the system will use to execute its own system scripts. This system shell can vary from OS to OS(most of the time it will be bash).
+#!/bin/sh: It is used to execute the file using sh, which is a Bourne shell, or a compatible shell
+
 - Write a Shell Script which prints `I will complete #90DaysOofDevOps challenge`
+echo `I will complete #90DaysOofDevOps challenge`
+
 - Write a Shell Script to take user input, input from arguments and print the variables.
 - Write an Example of If else in Shell Scripting by comparing 2 numbers
+
+Sol for both in task4_user_input.sh
 
 Was it difficult?
 
